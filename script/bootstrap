@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+go version
+
 UNAME=$(uname -s)
 
 if echo $UNAME | grep -q "_NT-"; then
